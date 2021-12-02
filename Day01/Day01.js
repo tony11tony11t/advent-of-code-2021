@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readFile('./Day01-input.txt' , (err, data) => {
+fs.readFile('./Day01/Day01-input.txt' , (err, data) => {
     if (err) throw err;
 
     const measurementsStr = data.toString().split(/\r?\n/)
