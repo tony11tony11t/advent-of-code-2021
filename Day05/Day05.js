@@ -110,6 +110,3 @@ function getPaint(inputs){
 
     return Array.from({length:range[1] + 1} , () => Array(range[0] + 1).fill(0))
 }
-
-
-
